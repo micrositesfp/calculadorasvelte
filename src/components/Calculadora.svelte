@@ -2,31 +2,37 @@
         import Botao from "./Botao.svelte";
         import Linha from "./Linha.svelte";
         import Tela from "./Tela.svelte";
+
+        let valor = '0';
+
+        function numeroDigitado(numero: string){
+            valor += numero;
+        }
     </script>
 
     <div class="calculadora" >
-        <Tela valor={'111111111111111111012345678910'}></Tela>
+        <Tela valor={valor}></Tela>
             <Linha>
             <Botao destaque triplo={true} texto="CE"></Botao>
             <Botao operacao texto="/"></Botao>
         </Linha>
 
         <Linha>
-            <Botao texto="9"></Botao>
-            <Botao texto="8"></Botao>
-            <Botao texto="7"></Botao>
+            <Botao texto="9" onClick={numeroDigitado}></Botao>
+            <Botao texto="8" onClick={numeroDigitado}></Botao>
+            <Botao texto="7" onClick={numeroDigitado} ></Botao>
             <Botao operacao texto="*"></Botao>
         </Linha>
         <Linha>
-            <Botao texto="6"></Botao>
-            <Botao texto="5"></Botao>
-            <Botao texto="4"></Botao>
+            <Botao texto="6" onClick={numeroDigitado} ></Botao>
+            <Botao texto="5" onClick={numeroDigitado} ></Botao>
+            <Botao texto="4" onClick={numeroDigitado} ></Botao>
             <Botao operacao texto="+"></Botao>
         </Linha>
         <Linha>
-            <Botao texto="3"></Botao>
-            <Botao texto="2"></Botao>
-            <Botao texto="1"></Botao>
+            <Botao texto="3" onClick={numeroDigitado} ></Botao>
+            <Botao texto="2" onClick={numeroDigitado} ></Botao>
+            <Botao texto="1" onClick={numeroDigitado} ></Botao>
             <Botao operacao texto="-"></Botao>
         </Linha>
         <Linha>
