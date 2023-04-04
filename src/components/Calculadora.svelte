@@ -5,9 +5,22 @@
 
         let valor = '0';
 
-        function numeroDigitado(numero: string){
-            valor += numero;
+        
+        class Model {
+            valor: string
+            constructor(valor: string = '0'){
+
+            }
+            inc(){
+                return new Model(`${parseInt(this.valor)+1}`);
+            }
         }
+
+        let obj = new Model();
+        function numeroDigitado(numero: string){
+            obj = obj.inc();
+        }
+
     </script>
 
     <div class="calculadora" >
