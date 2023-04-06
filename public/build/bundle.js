@@ -782,7 +782,7 @@ var app = (function () {
     			span = element("span");
     			t = text(/*valor*/ ctx[0]);
     			add_location(span, file$2, 5, 0, 165);
-    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(`tela ${/*tamanhoFonte*/ ctx[1]}`) + " svelte-1vptzne"));
+    			attr_dev(div, "class", div_class_value = "" + (null_to_empty(`tela ${/*tamanhoFonte*/ ctx[1]}`) + " svelte-19kedlu"));
     			add_location(div, file$2, 4, 0, 127);
     		},
     		l: function claim(nodes) {
@@ -796,7 +796,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*valor*/ 1) set_data_dev(t, /*valor*/ ctx[0]);
 
-    			if (dirty & /*tamanhoFonte*/ 2 && div_class_value !== (div_class_value = "" + (null_to_empty(`tela ${/*tamanhoFonte*/ ctx[1]}`) + " svelte-1vptzne"))) {
+    			if (dirty & /*tamanhoFonte*/ 2 && div_class_value !== (div_class_value = "" + (null_to_empty(`tela ${/*tamanhoFonte*/ ctx[1]}`) + " svelte-19kedlu"))) {
     				attr_dev(div, "class", div_class_value);
     			}
     		},

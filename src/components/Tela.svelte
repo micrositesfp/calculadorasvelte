@@ -22,40 +22,40 @@
         margin-bottom: 5px;
     }
     .s-9 {
-        font-size: 1.8rem;
+        font-size: 0.90rem;
     }.s-10 {
-        font-size: 1.1rem;
+        font-size: 0.910rem;
     }.s-11 {
-        font-size: 1.2rem;
+        font-size: 0.911rem;
     }
     .s-12 {
-        font-size: 1.6rem;
+        font-size: 0.912rem;
     }
     .s-13 {
-        font-size: 1.5rem;
+        font-size: 0.913rem;
     }
     .s-14 {
-        font-size: 1.4rem;
+        font-size: 0.914rem;
     }
     .s-15 {
-        font-size: 1.3rem;
+        font-size: 0.915rem;
     }
     .s-16 {
-        font-size: 1.2rem;
+        font-size: 0.916rem;
     }
     .s-17 {
-        font-size: 0.82rem;
+        font-size: 0.917rem;
     }
     .s-18 {
-        font-size: 0.76rem;
+        font-size: 0.918rem;
     }
     .s-19 {
-        font-size: 0.74rem;
+        font-size: 0.919rem;
     }
     .s-20 {
-        font-size: 0.72rem;
+        font-size: 0.92rem;
     }
     .pequena{
-        font-size: 1rem;
+        font-size: 0.916rem;
     }
 </style>
